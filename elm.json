@@ -1,10 +1,25 @@
 {
     "type": "package",
-    "name": "ArthurTeisseire/GameEngineECS",
+    "name": "ArthurTeisseire/game-engine-ecs",
     "summary": "A game engine using Entity Component System (ECS) architecture.",
     "license": "BSD-3-Clause",
     "version": "1.0.1",
     "exposed-modules": [
+        "Core.Component",
+        "Core.ComponentTable",
+        "Core.Context",
+        "Core.EntityId",
+        "Core.EntitySet",
+        "Core.Modifier",
+        "Core.Table"
     ],
-    "elm-version": "0.19.1 <= v < 0.20.0"
+    "elm-version": "0.19.1 <= v < 0.20.0",
+    "dependencies": {
+        "ArthurTeisseire/joinable-dict": "1.0.1 <= v < 2.0.0",
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "elm/html": "1.0.0 <= v < 2.0.0"
+    },
+    "test-dependencies": {
+        "elm-explorations/test": "2.1.1 <= v < 3.0.0"
+    }
 }
