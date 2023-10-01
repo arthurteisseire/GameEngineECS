@@ -1,0 +1,10 @@
+{
+    "type": "package",
+    "name": "ArthurTeisseire/GameEngineECS",
+    "summary": "A game engine using Entity Component System (ECS) architecture.",
+    "license": "BSD-3-Clause",
+    "version": "1.0.1",
+    "exposed-modules": [
+    ],
+    "elm-version": "0.19.1 <= v < 0.20.0"
+}
